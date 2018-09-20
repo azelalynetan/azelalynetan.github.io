@@ -80,6 +80,9 @@ p, a, span { font-size: 1em; }
     position: relative;
     z-index: 2;
 }
+#home .banner .header__description {
+    color: #fff;
+}
 /*Introduction*/
 .introduction {
     background-image: url('../images/background green.jpg');
