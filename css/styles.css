@@ -63,6 +63,8 @@ p, a, span { font-size: 1em; }
 }
 /*Introduction*/
 .introduction {
+    background-image: url('../images/background green.jpg');
+    background-repeat: repeat;
     background-color: #D5E8CC;
     padding: 5em;
 }
