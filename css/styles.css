@@ -75,8 +75,10 @@ p, a, span { font-size: 1em; }
 /*Interests*/
 .interests .grid-container {
     grid-template-columns: auto auto auto;
+    min-height: 470px;
 }
 .interests .section__title {
+    padding: 2em;
     width: 100%;
     text-align: left;
 }
