@@ -1,0 +1,84 @@
+/**Global Styles**/
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+} 
+body { margin: 0 auto; }
+.container {
+    margin: 0 auto;
+    padding: 0 10px;
+    max-width: 1000px;
+}
+@media only screen and (min-width: 800px) {
+    
+}
+
+/**Styling**/
+.screen-reader-text {
+    border: 0;
+    clip: rect(1px, 1px, 1px, 1px);
+    clip-path: inset(50%);
+    height: 1px; 
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute !important;
+    width: 1px;
+    word-wrap: normal !important;
+}
+h1 { font-size: 2em; }
+h2 { font-size: 1.75em; }
+h3 { font-size: 1.5em; }
+h4 { font-size: 1.25em; }
+h5 { font-size: 1em; }
+p, a, span { font-size: 1em; }
+
+.banner, introduction, .get-in-touch {
+    min-height: 470px;
+    display: flex;
+}
+.flex--center {
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    text-align: center;
+}
+.grid-container { display: grid; }
+.section__decription {
+    line-height: 1.5em;
+}
+.site-footer {
+    background-color: #000;
+    padding: 1em;
+    color: #fff;
+    text-align: center;
+}
+
+/**Home**/
+/*Banner*/
+#home .banner .header__title {
+    color: #EC665B;
+}
+/*Introduction*/
+.introduction {
+    background-color: #D5E8CC;
+    padding: 5em;
+}
+.introduction .logo {
+    width: 10em;
+    height: auto;
+}
+/*Interests*/
+.interests .grid-container {
+    grid-template-columns: auto auto auto;
+}
+.interests .section__title {
+    width: 100%;
+    text-align: left;
+}
+/*Introduction*/
+.get-in-touch {
+    background-color: #EC665B;
+}
