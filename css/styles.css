@@ -55,11 +55,30 @@ p, a, span { font-size: 1em; }
     color: #fff;
     text-align: center;
 }
+.div--light-background {
+    width: 100%;
+    height: 100%;
+    background-color: #d5e8cc85;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
 
 /**Home**/
 /*Banner*/
+#home .banner {
+    background-image: url('../images/30712446_1110727665731792_3202086355247617247_n.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}   
 #home .banner .header__title {
     color: #EC665B;
+}
+#home .banner .header__title, #home .banner .header__description {
+    position: relative;
+    z-index: 2;
 }
 /*Introduction*/
 .introduction {
