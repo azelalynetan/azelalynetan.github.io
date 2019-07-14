@@ -194,14 +194,18 @@ p, a, span { font-size: 1em; }*/
   margin-top: 40px;
 }
 
-
-
 #more-photos .card {
   max-height: 380px;
   overflow: hidden;
   border-radius: 10px;
 }
 
-.site-footer {
+/*contact-me*/
+#contact-me {
   padding: 100px 0 80px;
+}
+
+
+.site-footer {
+  padding: 60px 0;
 }
