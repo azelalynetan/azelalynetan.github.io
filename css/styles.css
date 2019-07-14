@@ -41,7 +41,7 @@ p, a, span { font-size: 1em; }*/
 
 
 .text--black {
-  color: #000;
+  color: #2b2b2b;
 }
 
 .text--gray {
@@ -106,9 +106,22 @@ p, a, span { font-size: 1em; }*/
   font-size: 1.7em;
 }
 
-.section__decription {
-  line-height: 1.5em;
+.section__title {
+  margin-bottom: 0.6em;
+  font-weight: 700;
+  color: #2b2b2b;
 }
+
+.section__subtitle {
+  margin-bottom: 2.5em;
+  color: #878787;
+}
+
+.section__description {
+  color: #878787;
+  line-height: 2em;
+}
+
 .site-footer {
   background-color: #000;
   padding: 1em;
@@ -148,22 +161,29 @@ p, a, span { font-size: 1em; }*/
   background-color: rgb(249, 249, 249);
 }
 
-#about .about__sidebar img {
+.about__sidebar img {
   border-radius: 5px;
 }
 
-
+.about__content {
+  padding: 20px 10px;
+}
 
 /*Interests*/
-.interests .grid-container {
-  grid-template-columns: auto auto auto;
-  min-height: 470px;
+#interests {
+  padding: 100px 0 80px;
+  text-align: center;
 }
-.interests .section__title {
-  padding: 2em;
-  width: 100%;
-  text-align: left;
+
+#interests .card {
+  padding: 60px 40px;
 }
+
+#interests .card .fas {
+  font-size: 3em;
+  margin: 0.5em 0.2em;
+}
+
 /*Introduction*/
 .get-in-touch {
   background-color: #EC665B;
