@@ -190,6 +190,11 @@ p, a, span { font-size: 1em; }*/
 
 }
 
+#more-photos .cards {
+  margin-top: 40px;
+}
+
+
 #more-photos .card {
   max-height: 380px;
   overflow: hidden;
