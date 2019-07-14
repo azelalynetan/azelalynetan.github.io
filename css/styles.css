@@ -185,7 +185,13 @@ p, a, span { font-size: 1em; }*/
   margin: 0.5em 0.2em;
 }
 
-/*Introduction*/
-.get-in-touch {
-  background-color: #EC665B;
+/*more-photos*/
+#more-photos {
+
+}
+
+#more-photos .card {
+  max-height: 380px;
+  overflow: hidden;
+  border-radius: 10px;
 }
