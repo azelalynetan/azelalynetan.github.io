@@ -177,6 +177,7 @@ p, a, span { font-size: 1em; }*/
 
 #interests .card {
   padding: 60px 40px;
+  border: none;
 }
 
 #interests .card .fas {
