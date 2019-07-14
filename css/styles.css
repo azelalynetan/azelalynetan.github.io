@@ -195,8 +195,13 @@ p, a, span { font-size: 1em; }*/
 }
 
 
+
 #more-photos .card {
   max-height: 380px;
   overflow: hidden;
   border-radius: 10px;
+}
+
+.site-footer {
+  padding: 100px 0 80px;
 }
