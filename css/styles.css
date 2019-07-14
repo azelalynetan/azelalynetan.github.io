@@ -156,9 +156,9 @@ p, a, span { font-size: 1em; }*/
 
 
 /*About*/
-#about {
+#about, #more-photos {
   padding: 100px 0 80px;
-  background-color: rgb(249, 249, 249);
+  background-color: #f9f9f9;
 }
 
 .about__sidebar img {
