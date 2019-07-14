@@ -62,11 +62,8 @@ p, a, span { font-size: 1em; }*/
   color: #000;
 }
 
-.banner, .introduction, .get-in-touch {
-  min-height: 470px;
-  display: flex;
-}
 .flex--center {
+  display: flex;
   align-items: center;
   justify-content: center;
   flex-flow: column;
@@ -97,29 +94,20 @@ p, a, span { font-size: 1em; }*/
 /**Section Styles**/
 
 /*Banner*/
-#home .banner {
+#banner {
   background-color: #d5f7da;
   height: 100vh;
 }   
 
-#home .banner .header__title {
+#banner .header__title {
   margin: 0.8em 0 0.5em;
   font-weight: 700;
   font-size: 3em;
 }
 
 
-/*Introduction*/
-.introduction {
-  background-image: url('../images/background green.jpg');
-  background-repeat: repeat;
-  background-color: #D5E8CC;
-  padding: 5em;
-}
-.introduction .logo {
-  width: 10em;
-  height: auto;
-}
+/*About*/
+
 /*Interests*/
 .interests .grid-container {
   grid-template-columns: auto auto auto;
