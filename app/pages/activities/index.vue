@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="px-4">
     <div class="text-center mb-10">
       <h1 class="font-montserrat font-bold text-3xl mb-4">My Activities</h1>
       <p>

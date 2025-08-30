@@ -3,7 +3,7 @@
     <NuxtLoadingIndicator />
     <div class="flex flex-col min-h-screen max-w-[1280px] sm:px-4 mx-auto relative">
       <Navbar />
-      <div class="flex-1 my-10 px-2">
+      <div class="flex-1 px-2">
         <slot />
       </div>
     </div>
