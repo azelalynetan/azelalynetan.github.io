@@ -12,10 +12,6 @@ export default defineContentConfig({
         image: z.string().editor({ input: 'media' }).optional(),
         tags: z.array(z.string()).optional(),
       })
-    }),
-    projects: defineCollection({
-      type: 'page',
-      source: 'projects/*.md'
-    }),
+    })
   }
 })

@@ -24,20 +24,13 @@
 </template>
 
 <script setup>
-type Activity = {
-  title: string,
-  description: string,
-  date: string
-  tags?: string[]
-}
-
 const { data: activities, status } = await useAsyncData('activities', async () => {
   const items = await queryCollection('activities')
     .order('date', 'DESC')
     .select('title', 'date', 'description', 'image', "path")
     .all()
 
-  return items.map((item: any) => ({
+  return items.map((item) => ({
     title: item.title,
     description: item.description,
     tags: item.meta?.tags,
