@@ -19,8 +19,7 @@ export default defineNuxtConfig({
     '@nuxt/content',
     '@nuxt/icon',
     '@nuxtjs/mdc',
-    '@nuxtjs/sitemap',
-    '@nuxtjs/robots'
+    '@nuxtjs/sitemap'
   ],
   fonts: {
     families: [
