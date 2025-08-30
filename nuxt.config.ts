@@ -47,7 +47,7 @@ export default defineNuxtConfig({
   },
 
   nitro: {
-    preset: 'github-pages',
+    // preset: 'github-pages',
     prerender: {
       crawlLinks: true,
       failOnError: false
