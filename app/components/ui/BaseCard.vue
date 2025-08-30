@@ -18,8 +18,7 @@ import { UiBadge } from '#components';
 
 defineProps<{
   title: string
-  description: string,
   image: string,
-  tags: []
+  tags: string[]
 }>()
 </script>

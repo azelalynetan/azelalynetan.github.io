@@ -4,7 +4,7 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   app: {
     head: {
-      title: 'Azel Alyne Tan | Frontend Developer', 
+      title: 'Portfolio - Azel Alyne Tan | Frontend Developer', 
       htmlAttrs: {
         lang: 'en',
       },
@@ -18,7 +18,9 @@ export default defineNuxtConfig({
     '@nuxtjs/tailwindcss',
     '@nuxt/content',
     '@nuxt/icon',
-    '@nuxtjs/mdc'
+    '@nuxtjs/mdc',
+    '@nuxtjs/sitemap',
+    '@nuxtjs/robots'
   ],
   fonts: {
     families: [
@@ -39,10 +41,12 @@ export default defineNuxtConfig({
       },
     ],
   },
-  // content: {
-  //   // optional, but good to set
-  //   documentDriven: true, // enables document-driven mode
-  // }
+
+  site: {
+    url: 'https://azelalynetan.github.io', 
+    name: 'Portfolio - Azel Alyne Tan | Frontend Developer' 
+  },
+
   nitro: {
     prerender: {
       routes: [
