@@ -26,8 +26,8 @@
     </div>
     <!-- Mobile Menu -->
     <div v-if="isOpen" class="md:hidden absolute left-0 w-full p-6 rounded-lg space-y-4 flex flex-col bg-brand-darkPink">
-      <NuxtLink to="/activities" @click="isOpen = false" class="uppercase font-bold p-4 hover:text-white hover:bg-brand-pink rounded-md" activeClass="text-white">Activites</NuxtLink>
       <NuxtLink to="/" @click="isOpen = false" class="uppercase font-bold p-4 hover:text-white hover:bg-brand-pink rounded-md" activeClass="text-white">About</NuxtLink>
+      <NuxtLink to="/activities" @click="isOpen = false" class="uppercase font-bold p-4 hover:text-white hover:bg-brand-pink rounded-md" activeClass="text-white">Activites</NuxtLink>
       <NuxtLink to="/projects" @click="isOpen = false" class="uppercase font-bold p-4 hover:text-white hover:bg-brand-pink rounded-md" activeClass="text-white">Projects</NuxtLink>
     </div>
   </nav>

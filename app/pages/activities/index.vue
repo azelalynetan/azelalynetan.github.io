@@ -10,13 +10,8 @@
         Some of these were originally published on <a href="https://devbits.ph" aria-label="Devbits.ph" target="_blank" rel="noopener noreferrer" class="font-bold">Devbits.ph</a>.
       </p>
     </div>
-    <div class="grid grid-cols-1 lg:grid-cols-[1fr_350px] mb-16">
-      <div class="border-brand-darkPink border-2 rounded-md p-4 sm:px-14 sm:py-10 bg-white">
-        <ActivitiesCardList />
-      </div>
-      <div class="">
-        <!-- <div>Sidebar</div> -->
-      </div>
+    <div class="border-brand-darkPink border-2 rounded-md p-4 mb-16 sm:px-14 sm:py-10 bg-white">
+      <ActivitiesCardList />
     </div>
   </div>
 </template>

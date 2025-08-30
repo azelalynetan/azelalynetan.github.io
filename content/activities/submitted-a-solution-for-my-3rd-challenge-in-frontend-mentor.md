@@ -10,6 +10,6 @@ In this challenge, I was able to practice more on CSS Grid and mobile-first appr
 
 ![Screenshot](https://res.cloudinary.com/inbytes/image/upload/c_fill,q_auto,w_600/v1688264806/dev/azelalynetan/highlights/screencapture-127-0-0-1-5500-index-html-2023-07-02-00_26_357vx.png)
 
-Solution: https://www.frontendmentor.io/solutions/responsive-four-card-feature-section-using-css-grid-3Nz5TVRyOD
+Solution: [link here](https://www.frontendmentor.io/solutions/responsive-four-card-feature-section-using-css-grid-3Nz5TVRyOD)
 
 *Originally posted in [Devbits.ph](https://devbits.ph/azelalynetan/highlights/submitted-a-solution-for-my-3rd-challenge-jm5n)*

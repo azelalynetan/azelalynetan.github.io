@@ -4,7 +4,7 @@
       <p>Loading ... </p>
     </div>
     <div v-else class="flex flex-col gap-4">
-      <div v-for="activity in activities" class="border-brand-darkPink bg-brand-lightPink border-2 rounded-md">
+      <div v-for="activity in activities" class="border-brand-darkPink bg-brand-lightPink border-2 rounded-md shadow-lg">
         <div class="p-10">
           <NuxtLink :to="activity.path" class="font-bold text-base block mb-1">
             {{activity.title}}
@@ -23,7 +23,7 @@
   </ClientOnly>
 </template>
 
-<script setup lang="ts">
+<script setup>
 type Activity = {
   title: string,
   description: string,
@@ -36,6 +36,7 @@ const { data: activities, status } = await useAsyncData('activities', async () =
     .order('date', 'DESC')
     .select('title', 'date', 'description', 'image', "path")
     .all()
+
   return items.map((item: any) => ({
     title: item.title,
     description: item.description,
