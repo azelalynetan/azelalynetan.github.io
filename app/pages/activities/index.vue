@@ -20,3 +20,14 @@
     </div>
   </div>
 </template>
+
+<script setup lang="ts">
+useSeoMeta({
+  title: 'Activities | AT Portfolio',
+  ogTitle: 'Activities | AT Portfolio',
+  description: 'Showcasing my tech-related activities beyond work — from writing and community engagement to continuous learning.',
+  ogDescription: 'Showcasing my tech-related activities beyond work — from writing and community engagement to continuous learning.',
+  ogImage: 'https://res.cloudinary.com/dytehra8d/image/upload/f_auto,q_auto/v1756536426/portfolio/og_image_gpmnzz.png',
+  twitterCard: 'summary_large_image',
+})
+</script>

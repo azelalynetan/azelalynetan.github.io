@@ -2,6 +2,17 @@
 export default defineNuxtConfig({
   compatibilityDate: '2025-08-29',
   devtools: { enabled: true },
+  app: {
+    head: {
+      title: 'Azel Alyne Tan | Frontend Developer', 
+      htmlAttrs: {
+        lang: 'en',
+      },
+      link: [
+        { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      ]
+    }
+  },
   modules: [
     '@nuxt/fonts',
     '@nuxtjs/tailwindcss',
