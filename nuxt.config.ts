@@ -3,6 +3,7 @@ export default defineNuxtConfig({
   compatibilityDate: '2025-08-29',
   devtools: { enabled: true },
   app: {
+    // baseURL: 'azelalynetan.github.io',
     head: {
       title: 'Portfolio - Azel Alyne Tan | Frontend Developer', 
       htmlAttrs: {
@@ -18,8 +19,7 @@ export default defineNuxtConfig({
     '@nuxtjs/tailwindcss',
     '@nuxt/content',
     '@nuxt/icon',
-    '@nuxtjs/mdc',
-    '@nuxtjs/sitemap'
+    '@nuxtjs/mdc'
   ],
   fonts: {
     families: [
@@ -47,11 +47,10 @@ export default defineNuxtConfig({
   },
 
   nitro: {
+    // preset: 'github-pages',
     prerender: {
-      routes: [
-        '/'
-      ],
-      crawlLinks: true
+      crawlLinks: true,
+      failOnError: false
     }
   },
 })
