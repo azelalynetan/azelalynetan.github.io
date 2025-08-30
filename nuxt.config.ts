@@ -3,7 +3,7 @@ export default defineNuxtConfig({
   compatibilityDate: '2025-08-29',
   devtools: { enabled: true },
   app: {
-    baseURL: 'azelalynetan.github.io',
+    // baseURL: 'azelalynetan.github.io',
     head: {
       title: 'Portfolio - Azel Alyne Tan | Frontend Developer', 
       htmlAttrs: {
