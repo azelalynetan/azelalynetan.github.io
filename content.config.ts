@@ -9,7 +9,7 @@ export default defineContentConfig({
         title: z.string(),
         description: z.string().optional(),
         date: z.date(),
-        image: z.string().editor({ input: 'media' }),
+        image: z.string().editor({ input: 'media' }).optional(),
         tags: z.array(z.string()).optional(),
       })
     }),
