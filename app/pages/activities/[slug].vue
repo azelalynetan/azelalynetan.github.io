@@ -27,7 +27,7 @@ useSeoMeta({
 </script>
 
 <template>
-  <div v-if="activity" class="prose mx-auto my-20">
+  <div v-if="activity" class="prose mx-auto px-4">
     <div class="mb-6">
       <p class="font-roboto text-sm mb-0">{{activity.date}}</p>
       <h1 class="font-roboto font-bold text-2xl mb-0">{{ activity.title }}</h1>

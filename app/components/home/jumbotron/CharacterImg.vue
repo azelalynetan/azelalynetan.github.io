@@ -3,13 +3,13 @@
     <img src="~/assets/images/character-blank.png" alt="Character" class="hover-img" />
     <div 
       class="
-        icon-link absolute bottom-0 mb-[60px] lg:mb-[20px] xl:mb-[50px] flex
+        icon-link absolute bottom-0 mb-[60px] md:mb-0 lg:mb-[20px] xl:mb-[50px] flex
         h-[80%] w-full inset-x-0
       "
       @mouseenter="isHovered = true"
       @mouseleave="isHovered = false"
     >
-      <a href="/pdf/CV.pdf" target="_blank" 
+      <a href="/pdf/CV.pdf" target="_blank" rel="noopener noreferrer"
         class="
           mx-auto mt-auto xxs:mb-[30px] xs:mb-[50px] sm:mb-[90px] lg:mb-[30px]
           flex flex-col gap-2 text-center text-2xl xxs:text-3xl xl:text-4xl 
@@ -32,11 +32,6 @@ const isHovered = ref(false)
 
 <style scoped>
 .icon-link {
-  /* position: absolute; */
-  /* bottom: 20px; */
-  /* left: 100px; */
-  /* height: 230px; */
-  /* width: 200px; */
   font-style: oblique 10deg;
   transform: perspective(600px) rotateX(25deg);
 }

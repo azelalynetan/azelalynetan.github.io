@@ -4,20 +4,20 @@
       <p>Loading ... </p>
     </div>
     <div v-else class="flex flex-col gap-4">
-      <div v-for="activity in activities" class="border-brand-darkPink bg-brand-lightPink border-2 rounded-md w-full flex gap-2 justify-between">
+      <div v-for="activity in activities" class="border-brand-darkPink bg-brand-lightPink border-2 rounded-md">
         <div class="p-10">
-          <NuxtLink :to="activity.path" class="font-bold text-base">
+          <NuxtLink :to="activity.path" class="font-bold text-base block mb-1">
             {{activity.title}}
           </NuxtLink>
-          <div class="flex gap-2 text-sm">
+          <div class="flex flex-col sm:flex-row sm:gap-2 text-sm">
             <span>{{activity.date}}</span>
-            <span>•</span>
+            <span class="hidden sm:block">•</span>
             <span>{{activity.description}}</span>
           </div>
         </div>
-        <div v-if="activity.image" class="h-full max-w-60 object-cover aspect-[1.91/1]">
+        <!-- <div v-if="activity.image" class="h-full max-w-60 object-cover aspect-[1.91/1] hidden sm:block">
           <img :src="activity.image" class="h-full w-auto" />
-        </div>
+        </div> -->
       </div>
     </div>
   </ClientOnly>
