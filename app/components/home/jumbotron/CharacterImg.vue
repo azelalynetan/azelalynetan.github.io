@@ -1,6 +1,6 @@
 <template>
   <div class="mx-auto relative w-full h-full overflow-hidden">
-    <img src="~/assets/images/character-blank.png" alt="Character" class="hover-img" />
+    <img src="https://res.cloudinary.com/dytehra8d/image/upload/f_auto,q_auto/v1756534922/portfolio/character-blank_mvd5c2.png" alt="Character" class="hover-img" />
     <div 
       class="
         icon-link absolute bottom-0 mb-[60px] md:mb-0 lg:mb-[20px] xl:mb-[50px] flex
