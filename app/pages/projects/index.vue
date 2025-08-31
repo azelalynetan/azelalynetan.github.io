@@ -20,7 +20,7 @@
         </template>
       </UiBaseCard>
       <UiBaseCard 
-        title="Devbrek | Haveabreak.dev"
+        title="Devbreak | Haveabreak.dev"
         image="https://res.cloudinary.com/dytehra8d/image/upload/v1756542262/portfolio/projects/devbreak_yqiolz.png"
         :tags="['Nuxt', 'Tailwind', 'Airtable API']"
       >
