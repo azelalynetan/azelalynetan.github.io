@@ -2,7 +2,7 @@
 title: "Workshop Speaker - WordCamp Manila 2018"
 date: "2018-09-08"
 description: "Held a workshop at WordCamp Manila 2018"
-tags: ["Event", "Workshop", "2023"]
+tags: ["Event", "Workshop", "2018"]
 ---
 
 It was a great experienced for me to share my knowledge in WordPress at WordCamp. This is my first time speaking at a tech conference with my topic, ["WordPress Workshop to Beginners"](https://manila.wordcamp.org/2018/session/wordpress-workshop-for-beginners/). 
