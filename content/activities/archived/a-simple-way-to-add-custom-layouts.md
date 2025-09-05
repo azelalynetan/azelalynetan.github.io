@@ -2,8 +2,7 @@
 title: "A simple way to add custom layouts and scoped slots in Nuxt 3"
 date: "2022-09-11"
 description: "Written a post"
-tags: ["Post", "Nuxt"]
-image: "https://devbits.ph/__og-image__/image/azelalynetan/a-simple-way-to-add-custom-layouts-ju1m/og.png"
+tags: ["Blog", "Nuxt"]
 ---
 
 In Nuxt 3, it allows us to use different customizable layouts for our application.
@@ -34,7 +33,7 @@ Let’s add additional components/contents to our default layout.
   </div>
 </template>
 ```
-In this example, all pages in our application will automatically have a header and footer. The content that we will set in the pages will be rendered in the <slot> element inside the default layout.
+In this example, all pages in our application will automatically have a header and footer. The content that we will set in the pages will be rendered in the `<slot>` element inside the default layout.
 
 How to create a custom layout:
 
@@ -54,7 +53,7 @@ In your ~/layouts/custom.vue, add this code:
   </div>
 </template>
 ```
-In this example, all pages with custom layout will have a sidebar and a different header. Since we have <slot /> already defined inside <main> for our page content, and we want to have a customizable header, we can add one more slot with a name on it as it’s identifier.
+In this example, all pages with custom layout will have a sidebar and a different header. Since we have `<slot />` already defined inside `<main>` for our page content, and we want to have a customizable header, we can add one more slot with a name on it as it’s identifier.
 
 Let’s apply the custom layout to our page.
 ```VUE
@@ -69,9 +68,9 @@ Let’s apply the custom layout to our page.
   </div>
 </template>
 ```
-In Nuxt 3, we need to wrap our template with <NuxtLayout> and add the name of the layout that we want to use.
+In Nuxt 3, we need to wrap our template with `<NuxtLayout>` and add the name of the layout that we want to use.
 
-Noticed that we added <template #header>, this will be rendered inside <slot name="header"></slot> in the custom.vue.
+Noticed that we added `<template #header>,` this will be rendered inside `<slot name="header"></slot>` in the custom.vue.
 
 Add this in your script.
 ```VUE

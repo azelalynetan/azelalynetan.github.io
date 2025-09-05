@@ -3,7 +3,7 @@
     <div class="relative flex justify-between h-16">
       <!-- Desktop Links -->
       <div class="hidden md:flex space-x-6 items-center w-full justify-center">
-        <NuxtLink to="/activities" class="uppercase font-bold hover:text-brand-darkPink" activeClass="underline underline-offset-8">Activites</NuxtLink>
+        <NuxtLink to="/activities" class="uppercase font-bold hover:text-brand-darkPink" activeClass="underline underline-offset-8">Activities</NuxtLink>
         <NuxtLink to="/" class="uppercase font-bold hover:text-brand-darkPink" activeClass="underline underline-offset-8">About</NuxtLink>
         <NuxtLink to="/projects" class="uppercase font-bold hover:text-brand-darkPink" activeClass="underline underline-offset-8">Projects</NuxtLink>
       </div>
@@ -27,7 +27,7 @@
     <!-- Mobile Menu -->
     <div v-if="isOpen" class="md:hidden absolute left-0 w-full p-6 rounded-lg space-y-4 flex flex-col bg-brand-darkPink">
       <NuxtLink to="/" @click="isOpen = false" class="uppercase font-bold p-4 hover:text-white hover:bg-brand-pink rounded-md" activeClass="text-white">About</NuxtLink>
-      <NuxtLink to="/activities" @click="isOpen = false" class="uppercase font-bold p-4 hover:text-white hover:bg-brand-pink rounded-md" activeClass="text-white">Activites</NuxtLink>
+      <NuxtLink to="/activities" @click="isOpen = false" class="uppercase font-bold p-4 hover:text-white hover:bg-brand-pink rounded-md" activeClass="text-white">Activities</NuxtLink>
       <NuxtLink to="/projects" @click="isOpen = false" class="uppercase font-bold p-4 hover:text-white hover:bg-brand-pink rounded-md" activeClass="text-white">Projects</NuxtLink>
     </div>
   </nav>
