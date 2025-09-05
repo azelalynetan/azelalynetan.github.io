@@ -2,9 +2,12 @@
   <div class="px-4 mb-20">
     <div class="text-center mb-10">
       <h1 class="font-montserrat font-bold text-3xl mb-4">My Activities</h1>
-      <p>
+      <!-- <p>
         Showcasing my tech-related activities beyond work — 
         from writing and community engagement to continuous learning. 
+      </p> -->
+      <p>
+        Here are some of my tech activities, where I get to share, connect, and give back to the community.
       </p>
       <p>
         Some of these were originally published on <a href="https://devbits.ph" aria-label="Devbits.ph" target="_blank" rel="noopener noreferrer" class="font-bold">Devbits.ph</a>.
