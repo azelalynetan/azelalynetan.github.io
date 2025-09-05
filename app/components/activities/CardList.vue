@@ -15,7 +15,7 @@
           <div class="flex flex-col sm:flex-row sm:gap-2 text-sm">
             <!-- <span class="hidden sm:block">•</span> -->
             <!-- <span>{{activity.description}}</span> -->
-            <div v-if="activity.tags && activity.tags.length > 0" class="flex gap-2">
+            <div v-if="activity.tags && activity.tags.length > 0" class="flex flex-wrap gap-2">
               <UiBadge v-for="tag in activity.tags" variant="gray" :key="tag">{{ tag }}</UiBadge>
             </div>
           </div>
